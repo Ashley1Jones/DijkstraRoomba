@@ -8,3 +8,5 @@ This code uses VREP's python API to simulate a robot navigating an office enviro
 - Send desired wheel speeds back to (VREP.py)
 
 This code uses multiprocessing to share cpu load.  The current setup passses on values serially so it is not completely utlising the cpu's potential; however, this can be changed.  Loop heavy operations are coded in Cython to avoid slow dynamic typing operations in "Gridmean.pyx".  Lastly, extra stuff with object detection (YOLO.py) is currently being tested for later work.
+
+![](images/screenshot.png)
